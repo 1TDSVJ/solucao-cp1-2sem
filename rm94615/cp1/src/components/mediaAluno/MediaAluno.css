@@ -1,0 +1,16 @@
+.rowMedia{
+    color: #fff;
+    border: solid 2px #ff0000;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+
+.col-25{
+    text-align: center;
+    background-color: #fff;
+    color: #000000;
+    width: 50vw;
+    margin: 1vh auto;
+    padding: 2vh 0;
+}
