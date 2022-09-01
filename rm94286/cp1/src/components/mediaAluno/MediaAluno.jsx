@@ -28,8 +28,7 @@ export default function MediaAluno(props) {
         <strong>Turma</strong>: {props.aluno.turma}
       </p>
       <p>
-        <strong>Media</strong>:
-        {corMedia(media(props.nota1, props.nota2, props.nota3))}
+        <strong>Media</strong>: {corMedia(media(props.nota1, props.nota2, props.nota3))}
       </p>
     </div>
   );
