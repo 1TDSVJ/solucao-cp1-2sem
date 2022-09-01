@@ -11,9 +11,9 @@ const App =()=>{
         turma: "1TDSZ",
     })
 
-    const nota1 = 6
-    const nota2 = 6
-    const nota3 = 6
+    const nota1 = 9
+    const nota2 = 9
+    const nota3 = 9
 
     return(
         <>

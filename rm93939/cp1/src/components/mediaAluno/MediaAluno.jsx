@@ -1,4 +1,5 @@
 import React from "react"
+import "./MediaAluno.css"
 
 function MediaAluno(props) {
 
@@ -21,11 +22,12 @@ function MediaAluno(props) {
 
     return (
         <div>
-            <h2>Media Aluno</h2>
-            <p><strong>Aluno</strong>: {props.alunoProps.nome}</p>
-            <p><strong>RM</strong>: {props.alunoProps.rm}</p>
-            <p><strong>Turma</strong>; {props.alunoProps.turma}</p>
-            <h2>Nota: {calculo()}</h2>
+            <div className="rowMedia">
+                <p className="col-25"><strong>Aluno</strong>: {props.alunoProps.nome}</p>
+                <p className="col-25"><strong>RM</strong>: {props.alunoProps.rm}</p>
+                <p className="col-25"><strong>Turma</strong>; {props.alunoProps.turma}</p>
+                <h2>Nota: {calculo()}</h2>
+            </div>
         </div>
     )
 }
