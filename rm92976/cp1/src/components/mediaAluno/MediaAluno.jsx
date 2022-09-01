@@ -20,7 +20,7 @@ export default function MediaAluno(props){
     }
     return(
         <div>
-            <h2>MEDIA ALUNO</h2>
+           
             <p><strong>Aluno</strong> :{props.alunoProps.nome}</p>
             <p><strong>RM</strong>: {props.alunoProps.rm}</p>
             <p><strong>TURMA</strong>: {props.alunoProps.turma}</p>
