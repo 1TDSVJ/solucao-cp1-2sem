@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MediaAluno from "./components/mediaAluno/MediaAluno";
+import MediaAluno from "./componentes/MediaAluno";
 
 export default function App() {
   const [aluno, setAluno] = useState({
