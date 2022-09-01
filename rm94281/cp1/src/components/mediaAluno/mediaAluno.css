@@ -1,0 +1,18 @@
+.rowMedia {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 2px #00ffaa;
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.col-25 {
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    width: 30vw;
+    margin: 1vh auto;
+    padding: 2vh 0;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
