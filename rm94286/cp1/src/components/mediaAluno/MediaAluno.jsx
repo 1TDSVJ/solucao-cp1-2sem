@@ -1,5 +1,5 @@
 import React from "react";
-
+import './MediaAluno.css';
 export default function MediaAluno(props) {
   const media = (nota1, nota2, nota3) => {
     let media = (nota1 + nota2 + nota3) / 3;
@@ -18,18 +18,12 @@ export default function MediaAluno(props) {
   };
   return (
     <div>
-      <p>
-        <strong>Nome</strong>: {props.aluno.nome}
-      </p>
-      <p>
-        <strong>Rm</strong>: {props.aluno.rm}
-      </p>
-      <p>
-        <strong>Turma</strong>: {props.aluno.turma}
-      </p>
-      <p>
-        <strong>Media</strong>: {corMedia(media(props.nota1, props.nota2, props.nota3))}
-      </p>
+      <div className="rowMedia">
+        <p className="col-25"><strong>Nome</strong>: {props.aluno.nome}</p>
+        <p className="col-25"><strong>Rm</strong>: {props.aluno.rm}</p>
+        <p className="col-25"><strong>Turma</strong>: {props.aluno.turma}</p>
+        <p><strong>Media</strong>: {corMedia(media(props.nota1, props.nota2, props.nota3))}</p>
+      </div>
     </div>
   );
 }
