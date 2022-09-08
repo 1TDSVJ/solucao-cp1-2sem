@@ -1,0 +1,35 @@
+$border-color: #ff0000;
+$back-color: #000000;
+$text-color: #fff;
+$back-col-color: #fff;
+$text-col-color: #000000;
+$text-media-color: #fff;
+
+.rowMedia {
+    color: $text-color;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid 2px $border-color;
+    background-color: $back-color;
+    border-radius: 3px;
+
+    .col-25 {
+        text-align: center;
+        background-color: $back-col-color;
+        color: $text-col-color;
+        width: 50vw;
+        margin: 1vh auto;
+        padding: 2vh 0;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+
+    .media {
+        text-align: center;
+        color: $text-media-color;
+        width: 50vw;
+        margin: 1vh auto;
+        padding: 2vh 0;
+        font-size: 1.5rem;
+        border-radius: 5px;
+    }
+}
