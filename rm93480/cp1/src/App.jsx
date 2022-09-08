@@ -4,7 +4,7 @@ import MediaAluno from "./components/mediaAluno/MediaAluno";
 export default function App() {
 
     const [aluno, setAluno] = useState({
-        'nome': 'Dio',
+        'nome': 'Jerinelson',
         'rm': '99999',
         'turma': '1TDZ'
     });
