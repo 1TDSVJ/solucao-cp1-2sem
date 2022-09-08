@@ -2,6 +2,14 @@ import React from 'react';
 import './MediaAluno.css'
 
 export default function MediaAluno(props){
+
+    let variavel = 0
+
+    function exemploEscopo(){
+       variavel = (1+1)
+    }
+
+    exemploEscopo()
     
     const nota1 = props.nota1Props
     const nota2 = props.nota2Props
