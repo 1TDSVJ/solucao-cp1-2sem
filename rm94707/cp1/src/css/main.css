@@ -1,0 +1,12 @@
+body {
+  background-color: #e20775;
+  color: #eeff00;
+}
+body .container {
+  color: #ff0000;
+}
+body .container p {
+  color: #000fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */

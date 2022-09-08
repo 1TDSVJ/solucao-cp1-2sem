@@ -1,0 +1,19 @@
+$text-color : #eeff00;
+$back-color : #e20775;
+$container-color : #ff0000;
+
+body{
+    background-color: $back-color;
+    color : $text-color;
+
+
+    .container{
+        color: $container-color;
+
+        p{
+            color: #000fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    }
+}
