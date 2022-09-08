@@ -1,13 +1,13 @@
 import React from "react"
 import { useState } from "react"
-import MediaAluno from "./componentes/mediaAluno/MediaAluno"
+import MediaAluno from "./components/mediaAluno/MediaAluno"
 
 export default function App() {
 
     const [aluno, setAluno] = useState({
-        nome: "Vinicius Reis",
-        rm: 94707,
-        turma: "1TDSVJ"
+        nome: "Joaquim",
+        rm: 99999,
+        turma: "1TDSZ"
     })
 
     const nota1 = 7
@@ -21,7 +21,7 @@ export default function App() {
             <div className="container">
                 <p>Apresentando com SASS</p>
             </div>
-            
+
             <MediaAluno alunoProps={aluno} nota1Props={nota1} nota2Props={nota2} nota3Props={nota3} />
         </>
     )
