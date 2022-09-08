@@ -17,6 +17,13 @@ export default function App() {
     return (
         <>
             <h1>CP1 de RWD 1º SEMESTRE</h1>
+
+            <div className="container">
+
+                <p> Apresentando com SASS</p>
+
+            </div>
+
             <MediaAluno alunoProps={aluno} nota1Props={nota1} nota2Props={nota2} nota3Props={nota3} />
         </>
     )
