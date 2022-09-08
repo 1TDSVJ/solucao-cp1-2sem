@@ -1,0 +1,24 @@
+.painel-aluno {
+    $color1: #fff;
+    $color2: #000000;
+
+    .rowMedia {
+        color: $color1;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: solid 2px #ff0000;
+        background-color: $color2;
+        border-radius: 3px;
+
+        .col-25 {
+            text-align: center;
+            background-color: $color1;
+            color: $color2;
+            width: 50vw;
+            margin: 1vh auto;
+            padding: 2vh 0;
+            font-size: 1.5rem;
+            border-radius: 5px;
+        }
+    }
+
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import './MediaAluno.css';
+import './mediaAluno.scss';
 
 export default function MediaAluno(props) {
 
@@ -18,7 +18,7 @@ export default function MediaAluno(props) {
     }
 
     return (
-        <div>
+        <div className="painel-aluno">
             <div className="rowMedia">
                 <p className="col-25"><strong>Aluno</strong> : {aluno.nome}</p>
                 <p className="col-25"><strong>RM</strong> : {aluno.rm}</p>

@@ -14,9 +14,16 @@ export default function App() {
     const nota3 = 5;
 
     return (
-        <div>
+        <>
             <h1>CP1 - 2°Semestre</h1>
+
+            <div className="container">
+                
+                <p>Apresentando com SASS</p>
+
+            </div>
+
             <MediaAluno aluno = {aluno} nota1={nota1} nota2={nota2} nota3={nota3} />
-        </div>
+        </>
     )
 }
