@@ -1,0 +1,26 @@
+$border: solid 2px #ff0000;
+$font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$back-color: #000000;
+$color: #ffffff;
+$text-align: center;
+$width: 50vw;
+$margin: 1vh auto;
+$padding: 2vh 0;
+$font-size: 2vh;
+.rowMedia {
+    color: $color;
+    background-color: $back-color;
+    border: $border;
+    font-family: $font-family;
+    border-radius: 3px;
+    .col-25 {
+        text-align: $text-align;
+        background-color: $color;
+        color: $back-color;
+        width: $width;
+        margin: $margin;
+        padding: $padding;
+        font-size: $font-size;
+        border-radius: 5px;
+    }
+}
