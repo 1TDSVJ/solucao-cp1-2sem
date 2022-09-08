@@ -1,0 +1,21 @@
+.rowMedia {
+  $back-color: #272626;
+  $border-color: #00ffaa;
+  $text-color: #fff;
+  color: $text-color;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  border: solid 2px $border-color;
+  background-color: $back-color;
+  border-radius: 3px;
+  .col-25 {
+    text-align: center;
+    background-color: $text-color;
+    color: $back-color;
+    width: 30vw;
+    margin: 1vh auto;
+    padding: 2vh 0;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+}

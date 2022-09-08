@@ -12,6 +12,9 @@ export default function App() {
   return (
     <>
       <h1>CP1 de RWD 2° Semestre</h1>
+      <div className='container'>
+        <p>Apresentando com SASS</p>
+      </div>
       <MediaAluno aluno={aluno} notas={notas} />
     </>
   );

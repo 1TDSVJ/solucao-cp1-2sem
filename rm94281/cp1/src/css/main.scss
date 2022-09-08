@@ -1,0 +1,13 @@
+$back-color: #e20775;
+$text-color: yellow;
+$container-color: blue;
+body {
+  background-color: $back-color;
+
+  .container {
+    background-color: $container-color;
+    p {
+      color: $text-color;
+    }
+  }
+}

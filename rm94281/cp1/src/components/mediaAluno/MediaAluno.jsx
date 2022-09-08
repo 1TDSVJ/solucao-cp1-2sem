@@ -1,5 +1,5 @@
 import React from 'react';
-import './mediaAluno.css';
+import './mediaAluno.scss';
 export default function MediaAluno(props) {
   const media = (nota1, nota2, nota3) => {
     return (nota1 + nota2 + nota3) / 3;
